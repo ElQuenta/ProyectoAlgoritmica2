@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">ProyectoAlgoritmica2</string>
-    <string name="text_menu">Menu\n</string>
+    <string name="text_menu">Menu</string>
     <string name="text_encriptar">Encriptar</string>
     <string name="text_desencriptar">Desencriptar</string>
+    <string name="til_text_encriptar">Texto a Encriptar</string>
+    <string name="text_encriptado_result">Texto Encriptado</string>
+    <string name="til_text_desencriptar">Texto a Desencriptar</string>
+    <string name="text_desencriptado_result">Texto Original</string>
 </resources>

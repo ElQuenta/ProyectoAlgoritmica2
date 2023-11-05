@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:background="@color/design_default_color_primary"
         android:text="@string/text_menu"
+        android:padding="8dp"
         android:gravity="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
