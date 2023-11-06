@@ -21,6 +21,10 @@ class DesencriptarActivity : AppCompatActivity() {
     private fun initListeners() {
         binding.btnAction.setOnClickListener {
             binding.Reultado.visibility = View.VISIBLE
+            val text = binding.encriptedMessage.text.toString()
+            binding.tvResultado.setText(
+                Receptor.desencryptMessage(text.split(" "))
+            )
         }
         binding.fabCopyText.setOnClickListener {
             val textoACopiar = binding.tvResultado.text

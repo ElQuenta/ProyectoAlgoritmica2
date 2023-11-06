@@ -7,6 +7,7 @@ android {
     namespace = "com.example.proyectoalgoritmica2"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.proyectoalgoritmica2"
         minSdk = 28

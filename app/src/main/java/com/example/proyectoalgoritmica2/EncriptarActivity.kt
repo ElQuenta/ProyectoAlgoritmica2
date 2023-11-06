@@ -20,6 +20,9 @@ class EncriptarActivity : AppCompatActivity() {
     private fun initListeners() {
         binding.btnAction.setOnClickListener {
             binding.Reultado.visibility = View.VISIBLE
+            val encryptedList = Emisor.encriptMessage(binding.message.text.toString())
+            val encryptedListSpace = encryptedList.joinToString( separator = " ")
+            binding.tvResultado.setText(encryptedListSpace)
         }
         binding.fabCopyText.setOnClickListener {
             val textoACopiar = binding.tvResultado.text

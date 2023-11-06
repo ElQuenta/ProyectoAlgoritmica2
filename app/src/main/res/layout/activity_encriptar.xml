@@ -35,6 +35,7 @@
             app:layout_constraintHorizontal_bias="0.5">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/til_text_encriptar"
